@@ -1,0 +1,481 @@
+hr {
+    display:block;
+    height: 1px;
+    border:0;
+    border-top:1px solid #f2f2f2;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+
+
+* {
+    text-decoration: none;
+}
+
+.header-logo {
+width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.header-logo {
+    width: 80%;
+    
+}
+
+.header-logo img {
+    width: 30%;
+    margin-bottom: 10px;
+    height: 30%;
+    
+}
+
+header {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-bran {
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+
+
+}
+
+
+header nav ul li {
+    display: inline-block;    
+    list-style: none;
+    padding: 0 16px;   
+}
+
+
+header nav ul li a {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-cases {
+    display: none;
+   
+}
+
+@media only screen and (min-width: 1000px) {
+    header .header-bran {         
+             
+        margin: 31px 0 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0px 20px 0 0px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;            
+    }
+       
+        
+    header nav ul li a {
+        
+        line-height: 60px;        
+    }   
+
+    header .header-cases {
+        display: block;
+        font-family: Catamaran;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    text-transform: uppercase;
+    line-height: 60px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    padding: 0 20px;
+    }
+
+}
+
+/*INDEX*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('aaron-burden-09AhDCedXF8-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.index-banner h2 {
+    font-family: Catamaran;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h1 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111
+    display: table;
+}
+
+.index-boxlink-1 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100%;
+    background-image: url('destination\ dig.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+        font-family: Catamaran;
+        font-size: 35px;
+        font-weight: 400000;    
+        line-height: 150px;
+        color: black;
+        text-align: center;
+        text-shadow: 10px 10px 32px #111
+        display: table;
+        text-transform: uppercase;
+}
+
+.index-boxlink-2 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-image: url(123213510_1459905177553030_5558413439423441079_n.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 500;    
+        line-height: 150px;
+        color: #f3f3f3ff;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111
+        display: table;
+        text-transform: uppercase;
+
+}
+
+.index-boxlink-3 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-image: url(69885098_107178710655053_570507652753260544_n.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 100;    
+        line-height: 150px;
+        color:  rgb(179, 21, 21);
+        text-align: center;
+        text-shadow: 5px 5px 10px #111
+        display: table;
+        text-transform: uppercase;
+}
+
+.index-boxlink-4 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-image: url(jacob-bentzinger-4FBdOfy7anY-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 500;    
+        line-height: 150px;
+        color: #f3f3f3;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111
+        display: table;
+        text-transform: uppercase;
+}
+
+.index-boxlink-5 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-image: url(lawrence-jing-vhlhZmRzZ-M-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 500;    
+        line-height: 150px;
+        line-height: 150px;
+        color:  rgb(179, 21, 21);
+        text-align: center;
+        text-shadow: 2px 2px 8px #111
+        display: table;
+        text-transform: uppercase;
+}
+
+.index-boxlink-6 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;    
+    background-image: url(jasmin-ne--faTkS8srWc-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Catamaran;
+        font-size: 20px;
+        font-weight: 500;    
+        line-height: 150px;
+        color: white;
+        text-align: center;
+        text-shadow: 4px 4px 8px #111
+        display: table;
+        text-transform: uppercase;
+}
+/*footer*/
+
+footer {
+
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 10px;
+    background-color: #615c5c82;
+    overflow: hidden;
+    }
+
+footer ul { 
+    width: fit-content;
+    float: left;
+    padding-left: 10px;   
+
+}
+
+footer ul li { 
+    display: block;
+    list-style: none;
+    font-family: Catamaran;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+}
+     
+footer ul li a { 
+    display: block;
+    list-style: none;
+    font-family: Catamaran;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+}
+
+
+
+
+.footer-sm {
+    width: 60px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* About page*/
+
+
+.two-column-wrapper {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+     overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+}
+
+.profile-image-wrapper {
+    width: 60px;
+    
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+    font-family: Catamaran;
+
+}
+
+.profile-content-wrapper p {
+    font-family: catamaran;
+}
+
+/* Service Times */
+
+.service-times {
+    display: block;
+    font-family: Catamaran;
+font-size: 16px;
+font-weight: bold;
+color: #111;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 60px;
+border: 1px solid #111;
+float: middlet;
+margin-right: 40px;
+padding: 0 20px;
+}
+
+/* address */
+
+.church-address {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+   text-align: center; 
+}
+
+.church-address-1 {
+    padding: 10%;
+    color: lightseagreen;
+    font-family: Catamaran;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*contact info */
+
+.Contact-info  {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+   text-align: center;   
+   text-transform: uppercase;
+    text-decoration: none; 
+    color: lightseagreen;
+}
+
+/* BOCYOUTH-1*/
+
+.BOCYOUTH-1 {
+    width: calc(100% - 20px);
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+   text-align: center;   
+   text-transform: uppercase;
+}
+
+.BOCYOUTHprofile-image-wrapper {
+    width: 100%;
+    float: middle;
+}
+
+.BOCYOUTHprofile-image-wrapper img {
+    width: 70%;
+    margin-bottom: 2px;
+}
+ 
+/* Meet the Pastors */
+    .Pastor-profile-image-wrapper{
+        width: 100%;
+        float: middle;
+    }
+    
+    .Pastor-profile-image-wrapper img {
+        width: 70%;
+        margin-bottom: 2px;
+}
+
+/* Events */
+.event-content-wrapper {
+    width: calc(100% - 20px);
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: fit-content;
+    float: middle;
+    display: block;
+   margin: 0 auto;
+   text-align: center;   
+   text-transform: uppercase;
+   color: lightseagreen;
+    font-family: Catamaran;
+    text-decoration: none;
+}
+
+
+
